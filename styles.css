@@ -23,12 +23,62 @@ html {
     height: auto;
   }
 
+  a {
+    text-decoration: none;
+  }
+
+  /* Fonts */
+
+/* Variables */
+
+/* Base Styles */
+
+.grid {
+    display: grid;
+}
+
+.flex {
+    display: flex;
+    
+}
+
 header {
     width: 100%;
     background: #24053E;
+    border-radius: 0 3px 30px 30px;
 }
 
-.hero-image {
+nav {
     width: 100%;
-    height: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+nav a {
+    color: white;
+    border-bottom: 2px solid #42EC99;
+    
+}
+
+.cta {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta h1 {
+    color: white;
+}
+
+.cta button {
+    margin: 20px 0;
+    width: 133px;
+    height: 55px;
+}
+.hero-image {
+    
+    width: 100%;
+    height: 179px;
+    margin-bottom: -35%;
 }
