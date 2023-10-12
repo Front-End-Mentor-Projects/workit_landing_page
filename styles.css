@@ -132,3 +132,38 @@ nav a {
 .infoBox p {
   font-size: 20px;
 }
+
+.apply {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 150px;
+}
+
+.applyBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  background-color: darkblue;
+  color: white;
+}
+
+.applyBox p {
+  padding-top: 25px;
+  font-size: 20px;
+}
+
+.applyBox h2 {
+  padding-top: 50px;
+  font-size: 32px;
+}
+
+.founder {
+  align-self: center;
+  width: 70%;
+}
